@@ -127,7 +127,7 @@
 				@php
 					$data = app\models\User::find(1);
 					Nama = $data->name;
-				@php
+				@endphp
                     </div>
                     
                     <div class="ml-4 text-center text-sm text-gray-500 sm:text-right sm:ml-0">
