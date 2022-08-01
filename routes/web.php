@@ -15,6 +15,6 @@ use App\Models\User;
 
 Route::get('/', function () {
     $data = User::find(1);
-    
+    dd($data);
     return view('welcome', ['data' => $data]);
 });
