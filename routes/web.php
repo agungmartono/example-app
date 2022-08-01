@@ -16,5 +16,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     $data = \App\Models\User::find(1);
     
-    return view('welcome', ['$data' => $data]););
+    return view('welcome', ['data' => $data]);
 });
